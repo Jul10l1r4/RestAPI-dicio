@@ -17,8 +17,12 @@ const inf = (buff) => {
     let exemplo = buff.Exemple
     let otros = buff.Other
     let msg = "sucesso"
+    exibir(buff)
   }else{
     let msg = "fudeu"
   }
   return msg
+}
+const exibir = (x) => {
+  window.document.write(`${x.titulo},${x.saap},${x.source},${x.descricao}`) 
 }
