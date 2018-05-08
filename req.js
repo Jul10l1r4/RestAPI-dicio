@@ -24,5 +24,5 @@ const inf = (buff) => {
   return msg
 }
 const exibir = (x) => {
-  window.document.write(`${x.titulo},${x.saap},${x.source},${x.descricao}`) 
+  window.document.write(`${x.Title},${x.SAAP},${x.Source},${x.Description}`) 
 }
