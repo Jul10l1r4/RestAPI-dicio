@@ -24,5 +24,5 @@ const inf = (buff) => {
   return msg
 }
 const exibir = (x) => {
-  window.document.write(`${x.Title},${x.SAAP},${x.Source},${x.Description}`) 
+  document.querySelector("body").innerHTML = `${x.Title},${x.SAAP},${x.Source},${x.Description}`
 }
